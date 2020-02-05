@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Puissance 4: Sois fin stratège et défie tes amis ou notre I.A. en mode recrue ou vétéran, good game!">
+    <meta name="author" content="Sacha HENRY, Fiona PEREIRA GOMES, Fayçal KARIM, Anthony BREVIGLIERI">
+    <meta name="category" content="game">
+    <meta name="Keywords" content="puissance 4, jeu, pions, grille, joueur, adversaire, vainqueur, i.a., colonnes, aligner, mode recrue, mode vétéran">
+    <!-- Facebook -->
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:title" content="Puissance 4">
+    <meta property="og:description" content="Puissance 4: Sois fin stratège et défie tes amis ou notre I.A. en mode recrue ou vétéran, good game!">
+    <meta property="og:image" content="http://fionap.promo-vesoul33.codeur.online/puissance4/media/logo.png">
+    <meta property="og:url" content="http://fionap.promo-vesoul33.codeur.online/puissance4/index.html">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="70">
+    <meta property="og:image:alt" content="facebook_partage">
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Puissance 4">
+    <meta name="twitter:description" content="Puissance 4: Sois fin stratège et défie tes amis ou notre I.A. en mode recrue ou vétéran, good game!">
+    <meta name="twitter:image" content="http://fionap.promo-vesoul33.codeur.online/puissance4/media/logo.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://twitter.com/puissance4">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--  css-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Puissance 4</title>
+</head>
+
+	<body>
+		<!-- HEADER -->
+		<header>
+			<div class="container-fluid">
+				<!-- nav barre -->
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<p class="mt-2"><img src="media/logo.png" alt="puissance-4-logo" width="400" height="70"></p>
+					<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end my-2" id="navbarNavAltMarkup">
+						<ul class="navbar-nav text-center text-lg-right text-xl-right font-weight-bold">
+							<li class="nav-item mr-0 mr-lg-5 mr-xl-5">
+								<a class="nav-link text-white" href="index.html">ACCUEIL</a>
+							</li>
+							<li class="nav-item mr-0 mr-lg-5 mr-xl-5">
+								<a class="nav-link text-white" href="human-versus.html">DUEL VERSUS</a>
+							</li>
+							<li class="nav-item dropdown mr-0 mr-lg-5 mr-xl-5">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
+								aria-haspopup="true" aria-expanded="false">I.A. VERSUS</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="recrue-ia-versus.html">MODE RECRUE</a>
+										<a class="dropdown-item" href="ia-versus.html">MODE VÉTÉRAN</a>
+									</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- MAIN-->
+		<main class="bg-main">
+			<div class="container-fluid ">
+				<div class="container">
+					<div class="row mb-4 pt-2 pb-2">
+							<div class="col-12  d-flex justify-content-center">
+								<!-- Button trigger modal -->
+								<button type="button" class="mt-4 btn btn-lg" data-toggle="modal"
+									data-target="#exampleModalScrollable">
+									RÈGLES DU JEU
+								</button>
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
+									aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-scrollable" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h1 class="modal-title" id="exampleModalScrollableTitle">Puissance 4</h1>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												Le but du jeu est d'aligner une suite de 4 pions de même couleur sur une grille comptant 6 rangées et 7 colonnes. 
+												Chaque joueur dispose de 21 pions d'une couleur (par convention, en général jaune ou rouge). 
+												Tour à tour, les deux joueurs placent un pion dans la colonne de leur choix, le pion coulisse alors 
+												jusqu'à la position la plus basse possible dans la dite colonne à la suite de quoi c'est à l'adversaire de jouer. 
+												Le vainqueur est le joueur qui réalise le premier un alignement (horizontal, vertical ou diagonal) consécutif d'au moins quatre pions de sa couleur. 
+												Si, alors que toutes les cases de la grille de jeu sont remplies, aucun des deux joueurs n'a réalisé un tel alignement, la partie est déclarée nulle.
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-secondary"
+													data-dismiss="modal">Fermer</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 d-flex justify-content-center">
+								<p id="indicateur-j1" class="d-block"><img src="media/orange-jeton.png" alt="orange-jeton-player-1" width="69" height="69"></p>
+							</div>
+							<div class="col-6 d-flex justify-content-center">
+								<p id="indicateur-j2" class="d-none"><img src="media/blue-jeton.png" alt="blue-jeton-player-1" width="69" height="69"></p>
+							</div>
+					</div>
+					<!-- board game -->
+					<div class="row d-flex justify-content-center align-items-center">
+						<div id="game">
+							<table>
+								<tr class="ligne1">
+									<td class="colonne1"></td>
+									<td class="colonne2"></td>
+									<td class="colonne3"></td>
+									<td class="colonne4"></td>
+									<td class="colonne5"></td>
+									<td class="colonne6"></td>
+									<td class="colonne7"></td>
+								</tr>
+								<tr class="ligne2">
+									<td class="colonne1"></td>
+									<td class="colonne2"></td>
+									<td class="colonne3"></td>
+									<td class="colonne4"></td>
+									<td class="colonne5"></td>
+									<td class="colonne6"></td>
+									<td class="colonne7"></td>
+								</tr>
+								<tr class="ligne3">
+									<td class="colonne1"></td>
+									<td class="colonne2"></td>
+									<td class="colonne3"></td>
+									<td class="colonne4"></td>
+									<td class="colonne5"></td>
+									<td class="colonne6"></td>
+									<td class="colonne7"></td>
+								</tr>
+								<tr class="ligne4">
+									<td class="colonne1"></td>
+									<td class="colonne2"></td>
+									<td class="colonne3"></td>
+									<td class="colonne4"></td>
+									<td class="colonne5"></td>
+									<td class="colonne6"></td>
+									<td class="colonne7"></td>
+								</tr>
+								<tr class="ligne5">
+									<td class="colonne1"></td>
+									<td class="colonne2"></td>
+									<td class="colonne3"></td>
+									<td class="colonne4"></td>
+									<td class="colonne5"></td>
+									<td class="colonne6"></td>
+									<td class="colonne7"></td>
+								</tr>
+								<tr class="ligne6">
+									<td class="colonne1"></td>
+									<td class="colonne2"></td>
+									<td class="colonne3"></td>
+									<td class="colonne4"></td>
+									<td class="colonne5"></td>
+									<td class="colonne6"></td>
+									<td class="colonne7"></td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		
+		<footer class="d-flex justify-content-center align-items-center text-center">
+			<p class="font-weight-bold mb-0">© 2019  Sacha HENRY, Fiona PEREIRA GOMES, Fayçal KARIM, Anthony BREVIGLIERI</p>
+		</footer>
+	
+		<script src="js/ia-versus.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</body>
+</html>

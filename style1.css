@@ -1,0 +1,174 @@
+
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+/*General*/
+.bg-alert {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background: url('../rootprojet/media/58671-[Converti].png') no-repeat center;
+    background-size: cover;
+    min-height: 80vh;
+}
+/*Textes*/
+.text-victoire-defaite {
+    font-size: 7rem;
+    padding-top: 40px;
+}
+
+.text-bravo-dommage {
+    font-size: 1.5rem;
+    padding-bottom: 40px;
+    margin-top: -20px;
+}
+/*Contenu page*/
+
+/*Boutons*/
+.btn-lien {
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #29B8C7;
+    border: 0;
+    font-weight: 300;
+    font-size: 1.2rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn-lien:hover {
+    background-color: #151F27;
+    transition-duration: 0.5s;
+}
+.container-buttons {
+    max-width: 800px;
+}
+/*jeu*/
+.bloc {
+    background-color: rgba(21,31,39,0.8);
+    padding: 25px;
+    border-radius: 25px;
+}
+.contenu-page-standard {
+    max-width: 900px;
+    margin-top: 150px;
+}
+/*Defaite*/
+.bloc-rouge {
+    background-color: rgba(221,38,39,0.8);
+}
+
+/*animation*/
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+  }
+  .ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0; 
+  }
+
+h1 {
+    animation: text-shadow 1.5s ease-in-out infinite;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1;
+}
+@keyframes text-shadow {
+    0% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+
+    20% {  
+        transform: translateY(-1em);
+        text-shadow: 
+            0 0.125em 0 #0c2ffb, 
+            0 0.25em 0 #2cfcfd, 
+            0 -0.125em 0 #fb203b, 
+            0 -0.25em 0 #fefc4b;
+    }
+
+    40% {  
+        transform: translateY(0.5em);
+        text-shadow: 
+            0 -0.0625em 0 #0c2ffb, 
+            0 -0.125em 0 #2cfcfd, 
+            0 0.0625em 0 #fb203b, 
+            0 0.125em 0 #fefc4b;
+    }
+    
+   60% {
+        transform: translateY(-0.25em);
+        text-shadow: 
+            0 0.03125em 0 #0c2ffb, 
+            0 0.0625em 0 #2cfcfd, 
+            0 -0.03125em 0 #fb203b, 
+            0 -0.0625em 0 #fefc4b;
+    }
+
+    80% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+}
+
+@media (max-width: 767px) { 
+    .h2-0-100, .h2-pro-maths {
+        padding-top: 50px;
+    }
+    .h2-page-regle {
+        padding-top: 0;
+    }
+    .text-victoire-defaite {
+        font-size: 3rem;
+    }
+    .text-bravo-dommage {
+        font-size: 1rem;
+    }
+    .titre-jeu {
+        margin-top: -30px;
+    }
+}
+@media (max-width: 350px) { 
+    .text-victoire-defaite {
+        font-size: 2.5rem;
+    }
+}
+@media (max-width: 767px) { 
+    .h2-0-100, .h2-pro-maths {
+        padding-top: 50px;
+    }
+    .h2-page-regle {
+        padding-top: 0;
+    }
+    .text-victoire-defaite {
+        font-size: 3rem;
+    }
+    .text-bravo-dommage {
+        font-size: 1rem;
+    }
+    .titre-jeu {
+        margin-top: -30px;
+    }
+}
+@media (max-width: 350px) { 
+    .text-victoire-defaite {
+        font-size: 2.5rem;
+    }
+}
+

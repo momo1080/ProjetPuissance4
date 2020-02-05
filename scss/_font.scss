@@ -1,0 +1,17 @@
+// system font
+
+@font-face{
+    font-family: "Game_Time";
+    src: url(Game_Time.ttf);  
+}
+
+main{
+    h1{
+        font-family: "Game_Time";
+    }
+    .font-game{
+        font-family: "Game_Time";
+    }
+}
+
+

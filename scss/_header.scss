@@ -1,0 +1,25 @@
+// section header
+
+header{
+    background-color:$dark-orange;
+    .nav-link{
+        color:$blue!important;
+    }
+    .dropdown-menu{
+        background-color:$dark-orange!important;
+        padding: 0;
+
+        .dropdown-item {
+            color: $blue!important;
+            font-weight: bold;
+        }
+        .dropdown-item:hover{
+            border-radius: 50% 20% / 10% 40%;
+            background-color:$black-opacity!important;
+        }
+    }
+    .nav-link:hover{
+        border-radius: 50% 20% / 10% 40%;
+        background-color:$black-opacity!important;
+    }
+}
